@@ -1,22 +1,23 @@
 {
-  "name": "hubot-example",
-  "description": "An example script package for Hubot",
+  "name": "hubot-kudu-web-hook",
+  "description": "Hubot script to announce Kudu deployments",
   "version": "1.0.0",
-  "author": "Tom Bell <tomb@tomb.io>",
+  "author": "Jeff Gabhart <lazydesert@gmail.com>",
   "license": "MIT",
 
   "keywords": [
     "hubot",
-    "hubot-scripts"
+    "kudu",
+    "azure"
   ],
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
+    "url": "git://github.com/jeffgabhart/hubot-kudu-web-hook.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/jeffgabhart/hubot-kudu-web-hook/issues"
   },
 
   "dependencies": {
@@ -24,15 +25,7 @@
   },
 
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "sinon-chai": "*",
-    "sinon": "*"
   },
 
   "main": "index.coffee",
-
-  "scripts": {
-    "test": "script/test"
-  }
 }
